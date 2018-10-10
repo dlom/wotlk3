@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Mark Old -- Everything -- @dlom234
 
 # THANKS
 
-    <name>
+    H5BP Team, Ion Hazzikostas
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Normalize.css, Bliss
