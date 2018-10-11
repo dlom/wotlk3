@@ -97,21 +97,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* #character-creation {
+	border-style: solid;
+} */
 
+#content {
+	padding: 2em;
+}
 
+#content p {
+	max-width: 800px;
+}
 
+#character-creation ul {
+	margin: 0;
+	padding: 0.5em;
+	display: inline-block;
+	list-style: none;
+}
 
+#character h2, h1.title {
+	display: inline;
+	padding-right: 0.5em;
+}
 
+#main .info {
+	padding-left: 1em;
+}
 
-
-
-
-
-
-
-
-
-
+.dev-note {
+	font-size: 70%;
+	color: lightgray;
+}
 
 /* ==========================================================================
    Helper classes

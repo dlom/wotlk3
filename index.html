@@ -20,22 +20,58 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
-  <!-- Add your site or application content here -->
   <div id="content">
-    <button id="x"></button>
+    <h1 class="title">World of Warcraft: Wrath of the Lich King 3 (Illidan's Revenge)</h1>
+    <span class="dev-note">Pre-Alpha Early Preview</span>
+    <p>
+      When the mighty heroes of Azeroth marched on Icecrown to vanquish the Lich Queen (Jaina Proudmoore), they thought that <em>this time</em>
+      would be the end of the Scourge.  However, with her dying breath, the Lich Queen secretly raised a final servant&mdash;Illidan Stormrage.
+      Long thought dead after the Seige of Exodar, he has been secretly biding his time in the Frozen Citadel.  Finally, it is time for him to take
+      the world by storm, and he isn't stopping until all of Azeroth is under his control!
+    </p>
+    <hr />
+    <div id="character-creation">
+      <h2>Customize your Character</h2>
+      <div><label for="player-name">Name: </label><input type="text" id="player-name" /></div>
+      <ul id="race-selector">
+        <li><input type="radio" name="race" value="alliance" id="race-alliance" /><label for="race-alliance">Alliance Elf</label></li>
+        <li><input type="radio" name="race" value="horde" id="race-horde" /><label for="race-horde">Horde Elf</label></li>
+        <li><input type="radio" name="race" value="centrist" id="race-centrist" /><label for="race-centrist">Radical Centrist Elf</label></li>
+      </ul>
+      <ul id="gender-selector">
+        <li><input type="radio" name="gender" value="male" id="gender-male" /><label for="gender-male">Male</label></li>
+        <li><input type="radio" name="gender" value="female" id="gender-female" /><label for="gender-female">Female</label></li>
+        <li><input type="radio" name="gender" value="other" id="gender-other" /><label for="gender-other">Other</label></li>
+      </ul>
+    </div>
+    <hr />
+    <div id="main">
+      <h2>What will <span id="honorific">you</span> do?</h2>
+      <div><input type="button" id="quest" value="Quest" /><span class="info" id="quest-info">Embark on an incredible quest!</span></div>
+      <div><input type="button" id="dungeon" value="Dungeon" /><span class="info" id="dungeon-info">You require an Item Level of at least 2000!</span></div>
+      <div><input type="button" id="raid" value="Raid" /><span class="info" id="raid-info">You require an Item Level of at least 2500!</span></div>
+    </div>
+    <hr />
+    <div id="character">
+      <h2>Big Important Numbers</h2><span class="dev-note">Should this be removed? Might confuse newer players</span>
+      <ul>
+        <li>Level: 280</li>
+        <li>Item Level: <span id="item-level">1000</span></li>
+        <li><span id="artifact-name"></span> of Azzikostas Level: <span id="artifact-level">1</span></li>
+        <li>Azzikostas Power (AP): <span id="artifact-power">0</span></li>
+      </ul>
+    </div>
   </div>
 
   <script src="https://cdn.polyfill.io/v2/polyfill.js?features=blissfuljs"></script>
   <script src="http://blissfuljs.com/bliss.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!-- <script>
+  <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    ga('create', 'UA-127347166-1', 'auto'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
